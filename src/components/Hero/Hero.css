@@ -46,10 +46,9 @@
     font-size: 20px;
 }
 
-.hero-price {
-    font-size: 150px;
-    line-height: 1;
-    font-weight: bold;
+.hero-image {
+    width: 100%;
+    max-width: 350px;
 }
 
 .hero-count {
@@ -77,4 +76,12 @@
 }
 .hero-count-item span {
     font-size: 22px;
+}
+
+.hero-text-bottom {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    padding: 7px 15px;
+    font-size: 20px;
 }

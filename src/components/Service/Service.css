@@ -1,0 +1,28 @@
+.service {
+    background-color: #1c2024;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.service-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0 70px;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 7px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.service-item {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+}

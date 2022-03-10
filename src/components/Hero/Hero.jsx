@@ -1,5 +1,6 @@
 import React,{useState,useEffect, useRef} from 'react'
 import './Hero.css'
+import imgPrice from '../../image/hero1.png'
 const Hero = () => {
     const [day, setDay] = useState('00')
     const [hour, setHour] = useState('00')
@@ -8,7 +9,7 @@ const Hero = () => {
 
     let interval = useRef() 
     const startTimer = () => {
-        const countdownDate = new Date('March 10, 2022 00:00:00').getTime()
+        const countdownDate = new Date('March 20, 2022 00:00:00').getTime()
 
         interval = setInterval(() => {
             const now = new Date().getTime()
@@ -47,7 +48,7 @@ const Hero = () => {
                 <div className="hero-main">
                     <h2 className='hero-title text-center'>Đơn vị sản xuất video <br /> quảng cáo hàng đầu Việt Nam</h2>
                     <p className="hero-subtitle text-center">Khẳng định đẳng cấp thương hiệu, tăng tốc doanh thu, vượt xa đối thủ</p>
-                    <div className="hero-price text-center">998k</div>
+                    <img src={imgPrice} alt="" className='center hero-image' />
                     <div className="btn-primary center">Đăng ký</div>   
                     <div className="hero-count">
                         <div className="hero-count-item">
@@ -69,6 +70,7 @@ const Hero = () => {
                     </div> 
                 </div>
             </div>
+            <div className="boxed hero-text-bottom">Tư vấn miễn phí</div>
         </section>
     </>
   )
