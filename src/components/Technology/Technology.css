@@ -2,7 +2,10 @@
     padding: 50px 0;
     background-color: #1c2024;
     color: #fff;
+<<<<<<< HEAD
     position: relative;
+=======
+>>>>>>> f96014b2cdbbf62acea07bee8348ee06d29cb031
 }
 
 .technology-list {
@@ -37,6 +40,7 @@
     object-fit: cover;
 }
 
+<<<<<<< HEAD
 .technology .bg-image {
     padding: 50px 0;
     background-image: url(../../image/bg-technology.png);
@@ -46,6 +50,8 @@
     width: 100%;
     height: 100%;
 }
+=======
+>>>>>>> f96014b2cdbbf62acea07bee8348ee06d29cb031
 @media screen and (max-width: 768px){
     .technology-list {
         grid-template-columns: 1fr;
