@@ -1,6 +1,5 @@
 import React from 'react'
 import './Product.css'
-<<<<<<< HEAD
 import img from '../../image/tech1.jpg'
 import video from '../../video/intro.mp4'
 
@@ -50,14 +49,6 @@ export const Product = () => {
                 </div>
                 <div className="product-video-name">Bố già - Phim điện ảnh</div>
               </div>
-=======
-export const Product = () => {
-  return (
-    <>
-        <section className="product">
-            <div className="container">
-                
->>>>>>> f96014b2cdbbf62acea07bee8348ee06d29cb031
             </div>
         </section>
     </>

@@ -28,11 +28,7 @@ export const Technology = () => {
     <>
         <section className="technology">
             <div className="container">
-<<<<<<< HEAD
                 <div className="section-title text-center bg-image">Sử dụng video marketing thời đại 4.0</div>
-=======
-                <div className="section-title text-center">Sử dụng video marketing thời đại 4.0</div>
->>>>>>> f96014b2cdbbf62acea07bee8348ee06d29cb031
                 <div className="technology-list">
                     {
                         listTech.map((item,index) => (

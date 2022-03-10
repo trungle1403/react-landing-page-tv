@@ -1,9 +1,6 @@
 import React from 'react'
 import tech1 from '../../image/tech1.jpg'
-<<<<<<< HEAD
 import about from '../../image/bg-about.png'
-=======
->>>>>>> f96014b2cdbbf62acea07bee8348ee06d29cb031
 import './About.css'
 export const About = () => {
     const listInfo = [
@@ -42,10 +39,9 @@ export const About = () => {
                     {
                         listInfo.map((item,index) => (
                             <div key={index} className="about-item boxed">
-<<<<<<< HEAD
+
                                 {index ===1 ? <img className='bg-image' src={about} /> : '' }
-=======
->>>>>>> f96014b2cdbbf62acea07bee8348ee06d29cb031
+
                                 <div className="section-text">{item.name}</div>
                                 <div className="about-image ">
                                     <img src={item.img} alt={item.name}/>
